@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>運命のダイス</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,16 +14,17 @@
 
 <div id="hostPanel" style="display:none;">
   <h3>ホスト操作</h3>
-  w: <input id="wCount" type="number"><br>
-  x: <input id="xRange" type="number"><br>
+  <label>w: <input id="wCount" type="number" min="1" value="1"></label><br>
+  <label>x: <input id="xRange" type="number" min="1" value="6"></label><br>
   <button id="saveConfig">設定保存</button>
 
+  <h4>ホスト文章</h4>
   <textarea id="hostText"></textarea>
 
   <h3>ダイス履歴</h3>
   <ul id="logList"></ul>
 </div>
 
-<script src="tab.js" type="module"></script>
+<script type="module" src="tab.js"></script>
 </body>
 </html>
