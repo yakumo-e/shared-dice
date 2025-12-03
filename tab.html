@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>運命のダイス</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="fixedResult">w: -</div>
+
+<button id="rollBtn">ロール</button>
+
+<div id="hostPanel" style="display:none;">
+  <h3>ホスト操作</h3>
+  w: <input id="wCount" type="number"><br>
+  x: <input id="xRange" type="number"><br>
+  <button id="saveConfig">設定保存</button>
+
+  <textarea id="hostText"></textarea>
+
+  <h3>ダイス履歴</h3>
+  <ul id="logList"></ul>
+</div>
+
+<script src="tab.js" type="module"></script>
+</body>
+</html>
