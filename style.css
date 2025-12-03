@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#fixedResult {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.room-btn {
+  width: 200px;
+  height: 80px;
+  margin: 40px auto;
+  background: gray;
+  color: white;
+  line-height: 80px;
+  cursor: pointer;
+}
