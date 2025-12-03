@@ -1,6 +1,9 @@
 body {
-  text-align: center;
+  margin: 0;
   font-family: sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
 }
 
 #fixedResult {
@@ -8,16 +11,48 @@ body {
   top: 0;
   width: 100%;
   background: black;
+  color: #0f0;
+  padding: 12px;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+button {
+  margin-top: 80px;
+  padding: 16px 40px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+  background: #444;
   color: white;
-  padding: 10px;
+}
+
+button:disabled {
+  background: #222;
+  color: #777;
 }
 
 .room-btn {
-  width: 200px;
+  width: 80%;
+  max-width: 320px;
   height: 80px;
-  margin: 40px auto;
-  background: gray;
-  color: white;
+  margin: 50px auto;
+  background: #444;
   line-height: 80px;
-  cursor: pointer;
+  border-radius: 14px;
+  font-size: 20px;
+}
+
+#hostPanel {
+  margin-top: 40px;
+  background: #222;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 90%;
+  height: 80px;
+  margin-top: 8px;
+  font-size: 16px;
 }
