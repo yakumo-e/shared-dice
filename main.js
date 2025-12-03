@@ -4,10 +4,13 @@ import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/fir
 
 // --- TODO: ここにあなたの firebaseConfig を入れる ---
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  // storageBucket, messagingSenderId, appId は任意
+  apiKey: "AIzaSyCzNPF0V5l9vzge_SjuQOG4DlqCSBkUWHE",
+  authDomain: "dice-4cc18.firebaseapp.com",
+  projectId: "dice-4cc18",
+  storageBucket: "dice-4cc18.firebasestorage.app",
+  messagingSenderId: "793455017758",
+  appId: "1:793455017758:web:00357a1c9c156d9cea130f",
+  measurementId: "G-CHQ67JNMYH"
 };
 
 const app = initializeApp(firebaseConfig);
